@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <script>
+    var capital = prompt("日本の首都は？");
+    
+    while(capital!="東京"){
+       alert("不正解です！");
+       break;
+      if(capital=="東京"){
+        alert("正解です！")
+      }
+     }
+   
+  </script>
+</html>
